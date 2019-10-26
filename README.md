@@ -3,4 +3,6 @@ Python script that organizes the files added to the Desktop into a target folder
 
 The script can be run as a background process everytime the OS(Windows, in my case) fires up, by creating a Batch(.bat) file and saving it into the startup folder(in the case of Windows OS).
 
+Can be updated to track additions in other folders like the 'Downloads' folder by changing the 'folder_to_track' variable.
+
 Watchdog library was used to track the changes being made to or the processes occuring on the desktop.
